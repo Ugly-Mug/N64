@@ -1,5 +1,5 @@
 # N64 Rumble Pak
-Replication and modification of the Nintendo 64 Rumble Pak PCB.
+Replication and modification of the Nintendo 64 Rumble Pak PCB (NUS-PB-11).
 
 I first created a schematic of the Rumble Pak when I was repairing a bunch of corroded boards. Many were beyond repair so I decided to create a functionally accurate replica of the original board design. While I was at it, I decided to create a board that draws power from the console and does away with needing batteries (i.e. a custom board for the common battery-free mod).
 
@@ -20,7 +20,7 @@ If you have any comments please feel free to add them to the _Discussions_.
 	- Corrected direction of diode (D1).
 	- Added ground connection for C3 and C4.
 	- Removed duplication of R7 (i.e. the resistor between Vcc and A14 marked optional). 
-R7 appears to have been added by Nintendo to later board revisions of the Rumble Pak, with earlier revisions using a bodge through-hole resistor.
+R7 appears to have been added by Nintendo to later board revisions of the Rumble Pak (NUS-PB-11), with earlier revisions (NUS-PB-01) using a bodge through-hole resistor.
 	- Added approximate capacitance for C1-C4.
 	- Added fuse rating for F1.
 - v2 schematic: 
